@@ -1,20 +1,25 @@
-Description of the task: Brief description of the problem statement, indication of the customer company, additional requirements, restrictions and answers to possible questions.
 
-Screenshots: In the "Screenshots" section, you must add images demonstrating the completion of the task. These can be screenshots of the console with executed commands, results of the program, monitoring dashboards, etc.
 
-Video description of the work: For clarity, it is recommended to record a video demonstrating the work of the completed task. The video must be uploaded to a platform such as YouTube or Google Drive and added to README.md using a link.
+# Task 1: to help with the development of new API features
 
-Example structure of README.md:
-
-# Task 1: Automating application deployment
-
-**Customer company:** E-commerce company "TechMart"
+**Customer company:** "Acme Corp" is a fast-growing startup developing innovative supply chain management software."
 
 **Additional requirements:**
 
-- Deploying a web application on a server using a Docker container.
+1. Develop an API method to create a new product:
 
-- ...
+Define a data model for a product, including fields such as name, description, price, category, and so on.
+Create an API method (POST /products) that accepts a JSON object with product data and saves it to the database.
+Return a JSON object with information about the created product.
+2. Develop an API method to get a list of products:
+
+Create an API method (GET /products) that returns a list of all products from the database.
+Add the ability to filter products by category (use the GET /products?category= parameter).
+Add the ability to sort products by price (use the GET /products?sort=price parameter).
+3. Develop an API method to get information about a specific product:
+
+Create an API method (GET /products/:id) that takes a product ID and returns information about it.
+Handle a 404 error if the product with the specified ID is not found.
 
 **Restrictions:**
 
