@@ -37,7 +37,7 @@ Handle a 404 error if the product with the specified ID is not found.
 
 ## Video description of work
 
-[Video link](https://www.youtube.com/watch?v=your_video_id)
+Development process [Video link][(https://drive.google.com/file/d/1nfo4SiM3gVpodRuCndsFNsluCjqqT7vz/view?usp=drive_link)]
 
 Formatting commits
 
