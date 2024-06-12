@@ -11,11 +11,13 @@
 Define a data model for a product, including fields such as name, description, price, category, and so on.
 Create an API method (POST /products) that accepts a JSON object with product data and saves it to the database.
 Return a JSON object with information about the created product.
+
 2. Develop an API method to get a list of products:
 
 Create an API method (GET /products) that returns a list of all products from the database.
 Add the ability to filter products by category (use the GET /products?category= parameter).
 Add the ability to sort products by price (use the GET /products?sort=price parameter).
+
 3. Develop an API method to get information about a specific product:
 
 Create an API method (GET /products/:id) that takes a product ID and returns information about it.
